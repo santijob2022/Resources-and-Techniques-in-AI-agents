@@ -18,3 +18,7 @@ NASA APOD API (Data Source)
 Provides daily astronomy pictures with metadata (title, explanation, URL).
 
 Airflow’s HttpOperator fetches the API data.
+
+# Astro deploy
+
+Finally, I created an AWS postgres database, and use the endpoint to connect with cloud DAG deployment on Astro
